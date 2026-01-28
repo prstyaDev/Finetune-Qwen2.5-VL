@@ -1,0 +1,11 @@
+### model
+model_name_or_path: Qwen/Qwen2.5-VL-3B-Instruct
+adapter_name_or_path: saves/Qwen2.5-VL-3B-Instruct/lora/sft-v2/checkpoint-11000
+trust_remote_code: true
+
+### method
+finetuning_type: lora
+
+# export
+export_dir: saves/Qwen2.5-VL-3B-Instruct-Lora-SFT-Checkpoint11000
+export_device: auto

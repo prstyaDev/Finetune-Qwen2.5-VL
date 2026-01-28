@@ -1,0 +1,35 @@
+{
+    "text_recongnition_zh": {
+        "hf_hub_url": "priyank-m/chinese_text_recognition",
+        "split": "train",
+        "columns": {
+          "text": "text",
+          "image": "image"
+        }
+    },
+    "text_recongnition_zh_en": {
+      "hf_hub_url": "priyank-m/text_recognition_en_zh",
+      "split": "train",
+      "columns": {
+        "text": "text",
+        "image": "image"
+      }
+  },
+  "text_recongnition_zh_test": {
+    "hf_hub_url": "priyank-m/chinese_text_recognition",
+    "split": "test",
+    "columns": {
+      "text": "text",
+      "image": "image"
+    }
+  },
+  "test_dataset":{
+    "hf_hub_url": "OleehyO/latex-formulas",
+    "subset":"cleaned_formulas",
+    "split":"train",
+    "columns": {
+      "text": "latex_formula",
+      "image": "image"
+    }
+  }
+}
